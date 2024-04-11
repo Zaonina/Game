@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 298593976
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_ui.bundle
+      Dependencies:
+        Dependency_0: share_assets_textmesh pro_resources_fonts & materials.bundle
+    Info_1:
+      Name: assets_player.bundle
+      Dependencies: {}
+    Info_2:
+      Name: assets_scenes.bundle
+      Dependencies: {}
+    Info_3:
+      Name: assets_hotgameobject.bundle
+      Dependencies: {}
+    Info_4:
+      Name: share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle
+      Dependencies: {}
+    Info_5:
+      Name: unityshaders.bundle
+      Dependencies: {}
+    Info_6:
+      Name: share_assets_textmesh pro_resources_fonts & materials.bundle
+      Dependencies:
+        Dependency_0: unityshaders.bundle
+        Dependency_1: share_assets_textmesh pro_fonts.bundle
+    Info_7:
+      Name: share_assets_textmesh pro_fonts.bundle
+      Dependencies: {}

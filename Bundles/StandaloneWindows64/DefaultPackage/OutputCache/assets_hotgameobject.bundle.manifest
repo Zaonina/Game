@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3334872973
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9fee1fc73c71d9f0282a1232589462cc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8027681858f9962b01f29f529afae02e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4676d593812d93f4e8767a3da05d4ac2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/HotGameObject/MainHotGameObject.prefab
+Dependencies: []

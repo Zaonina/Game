@@ -1,0 +1,124 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.1",
+        "UnityVersion": "2021.3.8f1c1",
+        "BuildDate": "2024/4/11 12:13:28",
+        "BuildSeconds": 0,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "RawFileBuildPipeline",
+        "BuildPackageName": "Codes",
+        "BuildPackageVersion": "2024-04-11-733",
+        "UniqueBundleName": false,
+        "EnableAddressable": false,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "IgnoreDefaultType": true,
+        "AutoCollectShaders": true,
+        "EnableSharePackRule": false,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 0,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": false,
+        "AssetFileTotalCount": 4,
+        "MainAssetTotalCount": 4,
+        "AllBundleTotalCount": 4,
+        "AllBundleTotalSize": 2043392,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/HotUpdate.dll.bytes",
+            "AssetGUID": "9de06ac0bb0e3ea4c93852ccc4c79b5b",
+            "AssetTags": [],
+            "MainBundleName": "assets_codes_hotupdate_dll_bytes.rawfile",
+            "MainBundleSize": 4096,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/mscorlib.dll.bytes",
+            "AssetGUID": "60f60c04461f5cc47b9b3d40142b3024",
+            "AssetTags": [],
+            "MainBundleName": "assets_codes_mscorlib_dll_bytes.rawfile",
+            "MainBundleSize": 1824768,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/System.Core.dll.bytes",
+            "AssetGUID": "893f78db416eb0c4099475eb7a4dc56f",
+            "AssetTags": [],
+            "MainBundleName": "assets_codes_system_core_dll_bytes.rawfile",
+            "MainBundleSize": 28672,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/System.dll.bytes",
+            "AssetGUID": "311216a9947bee844a0ce0646482a0cd",
+            "AssetTags": [],
+            "MainBundleName": "assets_codes_system_dll_bytes.rawfile",
+            "MainBundleSize": 185856,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_codes_hotupdate_dll_bytes.rawfile",
+            "FileName": "a3b31940e9453c1bee33d4d8b735b0d8.rawfile",
+            "FileHash": "a3b31940e9453c1bee33d4d8b735b0d8",
+            "FileCRC": "57e7c016",
+            "FileSize": 4096,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Codes/HotUpdate.dll.bytes"
+            ]
+        },
+        {
+            "BundleName": "assets_codes_mscorlib_dll_bytes.rawfile",
+            "FileName": "40789e916d6f653a5408538b05a6ebee.rawfile",
+            "FileHash": "40789e916d6f653a5408538b05a6ebee",
+            "FileCRC": "dffb3ab7",
+            "FileSize": 1824768,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Codes/mscorlib.dll.bytes"
+            ]
+        },
+        {
+            "BundleName": "assets_codes_system_core_dll_bytes.rawfile",
+            "FileName": "aa2ce0e06740e101435f0571c153292d.rawfile",
+            "FileHash": "aa2ce0e06740e101435f0571c153292d",
+            "FileCRC": "8130250e",
+            "FileSize": 28672,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Codes/System.Core.dll.bytes"
+            ]
+        },
+        {
+            "BundleName": "assets_codes_system_dll_bytes.rawfile",
+            "FileName": "89e1fe492b60cb703b64e90099019b19.rawfile",
+            "FileHash": "89e1fe492b60cb703b64e90099019b19",
+            "FileCRC": "2a0ee109",
+            "FileSize": 185856,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Codes/System.dll.bytes"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

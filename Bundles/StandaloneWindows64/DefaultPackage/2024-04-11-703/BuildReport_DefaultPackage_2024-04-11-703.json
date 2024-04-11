@@ -1,0 +1,202 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.1",
+        "UnityVersion": "2021.3.8f1c1",
+        "BuildDate": "2024/4/11 11:43:37",
+        "BuildSeconds": 4,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2024-04-11-703",
+        "UniqueBundleName": false,
+        "EnableAddressable": false,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "IgnoreDefaultType": true,
+        "AutoCollectShaders": true,
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 11,
+        "MainAssetTotalCount": 5,
+        "AllBundleTotalCount": 8,
+        "AllBundleTotalSize": 801420,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/UI/Text.prefab",
+            "AssetGUID": "a29339a7540ccd84d8f49cd5dbcedf90",
+            "AssetTags": [],
+            "MainBundleName": "assets_ui.bundle",
+            "MainBundleSize": 5305,
+            "DependAssets": [
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+                "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+            ]
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Player/player.prefab",
+            "AssetGUID": "350216808692e1f418e052dca020e8dc",
+            "AssetTags": [],
+            "MainBundleName": "assets_player.bundle",
+            "MainBundleSize": 49339,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Scenes/Game.unity",
+            "AssetGUID": "ca7b320956405824cb1874bd48c1a257",
+            "AssetTags": [],
+            "MainBundleName": "assets_scenes.bundle",
+            "MainBundleSize": 118589,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Scenes/Main.unity",
+            "AssetGUID": "9fc0d4010bbf28b4594072e72b8655ab",
+            "AssetTags": [],
+            "MainBundleName": "assets_scenes.bundle",
+            "MainBundleSize": 118589,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/HotGameObject/MainHotGameObject.prefab",
+            "AssetGUID": "1e35717e37292c442bf84d6c01f145c6",
+            "AssetTags": [],
+            "MainBundleName": "assets_hotgameobject.bundle",
+            "MainBundleSize": 2342,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_ui.bundle",
+            "FileName": "6b7d20c0a64f7dc72ea7ea855ebd6e9b.bundle",
+            "FileHash": "6b7d20c0a64f7dc72ea7ea855ebd6e9b",
+            "FileCRC": "8c20e5b6",
+            "FileSize": 5305,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_textmesh pro_fonts.bundle",
+                "share_assets_textmesh pro_resources_fonts & materials.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/UI/Text.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_player.bundle",
+            "FileName": "b13efc4b9a3a87f59fcc5f4d735c23a8.bundle",
+            "FileHash": "b13efc4b9a3a87f59fcc5f4d735c23a8",
+            "FileCRC": "796a3b39",
+            "FileSize": 49339,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Player/player.prefab"
+            ]
+        },
+        {
+            "BundleName": "assets_scenes.bundle",
+            "FileName": "72db3f1750a8780b3d27522a6c597e0b.bundle",
+            "FileHash": "72db3f1750a8780b3d27522a6c597e0b",
+            "FileCRC": "106c2a36",
+            "FileSize": 118589,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/Scenes/Game.unity",
+                "Assets/Scenes/Main.unity"
+            ]
+        },
+        {
+            "BundleName": "assets_hotgameobject.bundle",
+            "FileName": "ca8296cede3b68a3794211517f3e9c5b.bundle",
+            "FileHash": "ca8296cede3b68a3794211517f3e9c5b",
+            "FileCRC": "88905d86",
+            "FileSize": 2342,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/HotGameObject/MainHotGameObject.prefab"
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+            "FileName": "9450cbf16c35698188edc5825d94a089.bundle",
+            "FileHash": "9450cbf16c35698188edc5825d94a089",
+            "FileCRC": "3420ad4d",
+            "FileSize": 5653,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Font Asset Icon.psd",
+                "Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Text Component Icon.psd"
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "FileName": "748397c5c7813758786aa0a118137d11.bundle",
+            "FileHash": "748397c5c7813758786aa0a118137d11",
+            "FileCRC": "6165619b",
+            "FileSize": 19274,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+            ]
+        },
+        {
+            "BundleName": "share_assets_textmesh pro_resources_fonts & materials.bundle",
+            "FileName": "7bbb73913c81f3fd1158da76f1d20fb0.bundle",
+            "FileHash": "7bbb73913c81f3fd1158da76f1d20fb0",
+            "FileCRC": "f5b5834b",
+            "FileSize": 373548,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "share_assets_textmesh pro_fonts.bundle",
+                "unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+                "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+            ]
+        },
+        {
+            "BundleName": "share_assets_textmesh pro_fonts.bundle",
+            "FileName": "76a126ec9e1abd996825b09a0aec6085.bundle",
+            "FileHash": "76a126ec9e1abd996825b09a0aec6085",
+            "FileCRC": "748aefe1",
+            "FileSize": 227370,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

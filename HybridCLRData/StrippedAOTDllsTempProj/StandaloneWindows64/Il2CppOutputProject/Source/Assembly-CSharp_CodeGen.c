@@ -1,0 +1,457 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void AOTGenericReferences::RefMethods()
+extern void AOTGenericReferences_RefMethods_m17CF257D96D8BC2F232C4C1502905B792D17170C (void);
+// 0x00000002 System.Void AOTGenericReferences::.ctor()
+extern void AOTGenericReferences__ctor_m41CBD692FC9B521512E552575AFE7A385DEC71A6 (void);
+// 0x00000003 System.Void AOTGenericReferences::.cctor()
+extern void AOTGenericReferences__cctor_mA46BDC06A6577D725A2E5284A2A34C974CE65F68 (void);
+// 0x00000004 System.Void LoadWithYooAsset::Start()
+extern void LoadWithYooAsset_Start_m930F0A7FE9205C4A8B15392CE8CC6B24583D7BCE (void);
+// 0x00000005 System.Collections.IEnumerator LoadWithYooAsset::Init()
+extern void LoadWithYooAsset_Init_mCC3189F1A3B562A698FB1E5DFD3E1769BE885971 (void);
+// 0x00000006 System.Collections.IEnumerator LoadWithYooAsset::InitPackage(System.String)
+extern void LoadWithYooAsset_InitPackage_m10D00377CAD45F7F2E4D11DEA7A02D024E9B9AC7 (void);
+// 0x00000007 System.Collections.IEnumerator LoadWithYooAsset::UpdatePackage(System.String,System.String)
+extern void LoadWithYooAsset_UpdatePackage_m6C5B212C180F7E98C86FDBF4D9277ECDD7EA5BFC (void);
+// 0x00000008 System.Collections.IEnumerator LoadWithYooAsset::GetStaticVersion(System.String)
+extern void LoadWithYooAsset_GetStaticVersion_mE0BDFFE16097A143200968445B9FE5CD1EECBBED (void);
+// 0x00000009 System.Collections.IEnumerator LoadWithYooAsset::UpdateManifest(System.String)
+extern void LoadWithYooAsset_UpdateManifest_m7C3B754905802F7216D74C7D434113A05179E08D (void);
+// 0x0000000A System.Collections.IEnumerator LoadWithYooAsset::CreateDownloader()
+extern void LoadWithYooAsset_CreateDownloader_m6E79F90FCD56B3910D8551BFDAD2126714728F77 (void);
+// 0x0000000B System.Void LoadWithYooAsset::OnStartDownloadFileFunction(System.String,System.Int64)
+extern void LoadWithYooAsset_OnStartDownloadFileFunction_m86D371B403B65AD550083C87C75227CF6256BC31 (void);
+// 0x0000000C System.Void LoadWithYooAsset::OnDownloadOverFunction(System.Boolean)
+extern void LoadWithYooAsset_OnDownloadOverFunction_m0413D975B315BA6F5FEF0BD0C01817CF1C186E39 (void);
+// 0x0000000D System.Void LoadWithYooAsset::OnDownloadProgressUpdateFunction(System.Int32,System.Int32,System.Int64,System.Int64)
+extern void LoadWithYooAsset_OnDownloadProgressUpdateFunction_m793C0312D3E1FC7AE50B925C1CABC8034925BA74 (void);
+// 0x0000000E System.Void LoadWithYooAsset::OnDownloadErrorFunction(System.String,System.String)
+extern void LoadWithYooAsset_OnDownloadErrorFunction_m150EC13207D81E23FD122CB6D1A626D01E402D21 (void);
+// 0x0000000F System.Collections.Generic.List`1<System.String> LoadWithYooAsset::get_AOTMetaAssemblyFiles()
+extern void LoadWithYooAsset_get_AOTMetaAssemblyFiles_mB2C86E57E3AB8F4435B911798656C7FCAF8B1937 (void);
+// 0x00000010 System.Byte[] LoadWithYooAsset::ReadBytesFromStreamingAssets(System.String)
+extern void LoadWithYooAsset_ReadBytesFromStreamingAssets_m12F71DCB4B4612920C9A05601CE0034FF1948367 (void);
+// 0x00000011 System.Collections.IEnumerator LoadWithYooAsset::StartLoadDll(System.String)
+extern void LoadWithYooAsset_StartLoadDll_mF74FB3D2009C1D4EEB9A5139077B64E45859A2E8 (void);
+// 0x00000012 System.Collections.IEnumerator LoadWithYooAsset::LoadAsset(System.String)
+extern void LoadWithYooAsset_LoadAsset_mA804717DE73009C95B413623054AA825D6B0E047 (void);
+// 0x00000013 System.Void LoadWithYooAsset::LoadMetadataForAOTAssemblies()
+extern void LoadWithYooAsset_LoadMetadataForAOTAssemblies_m59CACDE97206AAEAC3A27CE7B8843CDCD61F53FB (void);
+// 0x00000014 System.Collections.IEnumerator LoadWithYooAsset::Run_InstantiateComponentByAsset()
+extern void LoadWithYooAsset_Run_InstantiateComponentByAsset_mD8EC724B0F6FCC158EDAFDA134FF5C2F0D3F5A47 (void);
+// 0x00000015 System.String LoadWithYooAsset::GetHostServerURL()
+extern void LoadWithYooAsset_GetHostServerURL_mED2888822BAC3F7FAAFC8C7FBBA0D7DEBA088DEC (void);
+// 0x00000016 System.Void LoadWithYooAsset::.ctor()
+extern void LoadWithYooAsset__ctor_m75924DAA940BB9AB52C44CFEF71F3A9B1D17157F (void);
+// 0x00000017 System.Void LoadWithYooAsset::.cctor()
+extern void LoadWithYooAsset__cctor_mEA9DBC9F233FA25E248955B4D72FA7BDF849CFB4 (void);
+// 0x00000018 System.Void LoadWithYooAsset/RemoteServices::.ctor(System.String,System.String)
+extern void RemoteServices__ctor_mC10FCCEF39D3CBF461E08C55426F91D4114A7A05 (void);
+// 0x00000019 System.String LoadWithYooAsset/RemoteServices::YooAsset.IRemoteServices.GetRemoteMainURL(System.String)
+extern void RemoteServices_YooAsset_IRemoteServices_GetRemoteMainURL_m0B5F6CE85F28AF867B28A99F06F4FA14ED2A3048 (void);
+// 0x0000001A System.String LoadWithYooAsset/RemoteServices::YooAsset.IRemoteServices.GetRemoteFallbackURL(System.String)
+extern void RemoteServices_YooAsset_IRemoteServices_GetRemoteFallbackURL_m9DABF828A8A010D1FB8CB0D56F6EC64AC6A967DA (void);
+// 0x0000001B UnityEngine.AssetBundle LoadWithYooAsset/FileStreamDecryption::YooAsset.IDecryptionServices.LoadAssetBundle(YooAsset.DecryptFileInfo,System.IO.Stream&)
+extern void FileStreamDecryption_YooAsset_IDecryptionServices_LoadAssetBundle_mF026DBB883A9B791B215012C89EC92F413EB639E (void);
+// 0x0000001C UnityEngine.AssetBundleCreateRequest LoadWithYooAsset/FileStreamDecryption::YooAsset.IDecryptionServices.LoadAssetBundleAsync(YooAsset.DecryptFileInfo,System.IO.Stream&)
+extern void FileStreamDecryption_YooAsset_IDecryptionServices_LoadAssetBundleAsync_mB4DE2FB518CB0863F2F6BA333BFDF36DC71DB439 (void);
+// 0x0000001D System.UInt32 LoadWithYooAsset/FileStreamDecryption::GetManagedReadBufferSize()
+extern void FileStreamDecryption_GetManagedReadBufferSize_mF57B5E51775AFA439C67C27C191787399C9AB87E (void);
+// 0x0000001E System.Void LoadWithYooAsset/FileStreamDecryption::.ctor()
+extern void FileStreamDecryption__ctor_mDCEBC4B483874C42D12159E22AF17775EEB9A1BA (void);
+// 0x0000001F UnityEngine.AssetBundle LoadWithYooAsset/FileOffsetDecryption::YooAsset.IDecryptionServices.LoadAssetBundle(YooAsset.DecryptFileInfo,System.IO.Stream&)
+extern void FileOffsetDecryption_YooAsset_IDecryptionServices_LoadAssetBundle_m386664791BD38055E983E20A6C278CDC405FBB0E (void);
+// 0x00000020 UnityEngine.AssetBundleCreateRequest LoadWithYooAsset/FileOffsetDecryption::YooAsset.IDecryptionServices.LoadAssetBundleAsync(YooAsset.DecryptFileInfo,System.IO.Stream&)
+extern void FileOffsetDecryption_YooAsset_IDecryptionServices_LoadAssetBundleAsync_mBE983D15437C606669578BB57C7F1F854AC6C188 (void);
+// 0x00000021 System.UInt64 LoadWithYooAsset/FileOffsetDecryption::GetFileOffset()
+extern void FileOffsetDecryption_GetFileOffset_m88D7C26C071CCDF77047A6A35DCE34C2007B0B9B (void);
+// 0x00000022 System.Void LoadWithYooAsset/FileOffsetDecryption::.ctor()
+extern void FileOffsetDecryption__ctor_mD2A5F9AD75425E9999412144CA859A6A877A356C (void);
+// 0x00000023 System.Void LoadWithYooAsset/BundleStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+extern void BundleStream__ctor_m7BA2993746DC8A579C2912929FEEA331A91B7CA6 (void);
+// 0x00000024 System.Void LoadWithYooAsset/BundleStream::.ctor(System.String,System.IO.FileMode)
+extern void BundleStream__ctor_mD1B4C3E87DDC8220470CEED9AFFD1F7EF4112604 (void);
+// 0x00000025 System.Int32 LoadWithYooAsset/BundleStream::Read(System.Byte[],System.Int32,System.Int32)
+extern void BundleStream_Read_mA1AAE3462011B8A8463416BC171DBF70C791C23B (void);
+// 0x00000026 System.Void LoadWithYooAsset/<Init>d__7::.ctor(System.Int32)
+extern void U3CInitU3Ed__7__ctor_m4B0A62B0792B079631F69AF08B81C2D3B2468119 (void);
+// 0x00000027 System.Void LoadWithYooAsset/<Init>d__7::System.IDisposable.Dispose()
+extern void U3CInitU3Ed__7_System_IDisposable_Dispose_m5AB9F473CC6BCAFA0A35762192D17AE38A925EE4 (void);
+// 0x00000028 System.Boolean LoadWithYooAsset/<Init>d__7::MoveNext()
+extern void U3CInitU3Ed__7_MoveNext_m9C2399120830359E84AAB4147235DEBF167FC4BA (void);
+// 0x00000029 System.Object LoadWithYooAsset/<Init>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CInitU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD31A7DFD6FB1096ACD091FD5BE13298CDFD4DFCE (void);
+// 0x0000002A System.Void LoadWithYooAsset/<Init>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CInitU3Ed__7_System_Collections_IEnumerator_Reset_mD06C2A483199600134FF614255DA295584CB9C14 (void);
+// 0x0000002B System.Object LoadWithYooAsset/<Init>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CInitU3Ed__7_System_Collections_IEnumerator_get_Current_m6A2E21A5BCE7F59373EDBE15800A1C1CDE1574CC (void);
+// 0x0000002C System.Void LoadWithYooAsset/<InitPackage>d__8::.ctor(System.Int32)
+extern void U3CInitPackageU3Ed__8__ctor_mDDBCB19E5708D51DB2B956859A6C62CA154375CE (void);
+// 0x0000002D System.Void LoadWithYooAsset/<InitPackage>d__8::System.IDisposable.Dispose()
+extern void U3CInitPackageU3Ed__8_System_IDisposable_Dispose_m54E3874AA9FB6EAEC31ACBD4780493B5BE07AA8F (void);
+// 0x0000002E System.Boolean LoadWithYooAsset/<InitPackage>d__8::MoveNext()
+extern void U3CInitPackageU3Ed__8_MoveNext_m6DFD1201069F7A14B493BDAECA98BF2811D9E90A (void);
+// 0x0000002F System.Object LoadWithYooAsset/<InitPackage>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CInitPackageU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m869ECFDE09004EDEF3E86AEB0243292D2CD4C436 (void);
+// 0x00000030 System.Void LoadWithYooAsset/<InitPackage>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CInitPackageU3Ed__8_System_Collections_IEnumerator_Reset_m15BC7CB768860791F09EED895E6D55B5236553BD (void);
+// 0x00000031 System.Object LoadWithYooAsset/<InitPackage>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CInitPackageU3Ed__8_System_Collections_IEnumerator_get_Current_m924C411350B05A1639373220F9E5D115EA681701 (void);
+// 0x00000032 System.Void LoadWithYooAsset/<UpdatePackage>d__9::.ctor(System.Int32)
+extern void U3CUpdatePackageU3Ed__9__ctor_m6709EDF68AD12C87B811C30C28670A2D884A5E81 (void);
+// 0x00000033 System.Void LoadWithYooAsset/<UpdatePackage>d__9::System.IDisposable.Dispose()
+extern void U3CUpdatePackageU3Ed__9_System_IDisposable_Dispose_mB2DF75718FEBF1FB219520C56B3FBAD10218789A (void);
+// 0x00000034 System.Boolean LoadWithYooAsset/<UpdatePackage>d__9::MoveNext()
+extern void U3CUpdatePackageU3Ed__9_MoveNext_mCD7E98A9EDB5F2047E366F3B7DC68F63A045F7ED (void);
+// 0x00000035 System.Object LoadWithYooAsset/<UpdatePackage>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CUpdatePackageU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF4AD214EACFCE3029E827BD31619ED559590D490 (void);
+// 0x00000036 System.Void LoadWithYooAsset/<UpdatePackage>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CUpdatePackageU3Ed__9_System_Collections_IEnumerator_Reset_mBA783F1EB2A661FAFA32C025E27DAD09B4212103 (void);
+// 0x00000037 System.Object LoadWithYooAsset/<UpdatePackage>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CUpdatePackageU3Ed__9_System_Collections_IEnumerator_get_Current_m6518C75660D132E1C9A5B80F1D945EEAB02DE499 (void);
+// 0x00000038 System.Void LoadWithYooAsset/<GetStaticVersion>d__10::.ctor(System.Int32)
+extern void U3CGetStaticVersionU3Ed__10__ctor_mAF59408D6E1B9AFEF9EB6396E0E9F539A03E4CB6 (void);
+// 0x00000039 System.Void LoadWithYooAsset/<GetStaticVersion>d__10::System.IDisposable.Dispose()
+extern void U3CGetStaticVersionU3Ed__10_System_IDisposable_Dispose_m699C4D7BAD0522AAE141354041F56FFED51662A1 (void);
+// 0x0000003A System.Boolean LoadWithYooAsset/<GetStaticVersion>d__10::MoveNext()
+extern void U3CGetStaticVersionU3Ed__10_MoveNext_m5B47A56D8D59242E6D3EF55D58C3B8BCB0C70209 (void);
+// 0x0000003B System.Object LoadWithYooAsset/<GetStaticVersion>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CGetStaticVersionU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF0F079D49B28302A0B0B0887CB5293803A128F0B (void);
+// 0x0000003C System.Void LoadWithYooAsset/<GetStaticVersion>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CGetStaticVersionU3Ed__10_System_Collections_IEnumerator_Reset_m32919E8C08AE4158D2BAC47FF8AC26C1C5772262 (void);
+// 0x0000003D System.Object LoadWithYooAsset/<GetStaticVersion>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CGetStaticVersionU3Ed__10_System_Collections_IEnumerator_get_Current_mD495ED60AE66AD2B886A4AD83E844D71B10AB498 (void);
+// 0x0000003E System.Void LoadWithYooAsset/<UpdateManifest>d__11::.ctor(System.Int32)
+extern void U3CUpdateManifestU3Ed__11__ctor_m63976236E35ACD3A67181C5CA0051DC7431BA995 (void);
+// 0x0000003F System.Void LoadWithYooAsset/<UpdateManifest>d__11::System.IDisposable.Dispose()
+extern void U3CUpdateManifestU3Ed__11_System_IDisposable_Dispose_m2F05D3CE2F950B0287FEBF992343A4B2D6C1C218 (void);
+// 0x00000040 System.Boolean LoadWithYooAsset/<UpdateManifest>d__11::MoveNext()
+extern void U3CUpdateManifestU3Ed__11_MoveNext_m4A76B100FD557C95539DEE2B2CFDE21B9615301B (void);
+// 0x00000041 System.Object LoadWithYooAsset/<UpdateManifest>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CUpdateManifestU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE9763CB79FB59046C0874E629716734873207C7D (void);
+// 0x00000042 System.Void LoadWithYooAsset/<UpdateManifest>d__11::System.Collections.IEnumerator.Reset()
+extern void U3CUpdateManifestU3Ed__11_System_Collections_IEnumerator_Reset_m8DA634635181779C6F9A97407F1A466A97C84A5C (void);
+// 0x00000043 System.Object LoadWithYooAsset/<UpdateManifest>d__11::System.Collections.IEnumerator.get_Current()
+extern void U3CUpdateManifestU3Ed__11_System_Collections_IEnumerator_get_Current_mBEA93A377BAE1F1B964D025D904CAB1A2FB2FFD4 (void);
+// 0x00000044 System.Void LoadWithYooAsset/<CreateDownloader>d__12::.ctor(System.Int32)
+extern void U3CCreateDownloaderU3Ed__12__ctor_mA6CE2A13D4B578FCE522CA5C1CEEF7DB5B718E77 (void);
+// 0x00000045 System.Void LoadWithYooAsset/<CreateDownloader>d__12::System.IDisposable.Dispose()
+extern void U3CCreateDownloaderU3Ed__12_System_IDisposable_Dispose_m6FACF8CA936DFED8A63BF56BAD203C76660B9826 (void);
+// 0x00000046 System.Boolean LoadWithYooAsset/<CreateDownloader>d__12::MoveNext()
+extern void U3CCreateDownloaderU3Ed__12_MoveNext_m8FD61E9E757F89235A6178FD1FABA9FB9FEFE1C1 (void);
+// 0x00000047 System.Object LoadWithYooAsset/<CreateDownloader>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCreateDownloaderU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF14E6AFED6D1590EC1D43D187747E6DB17A400C0 (void);
+// 0x00000048 System.Void LoadWithYooAsset/<CreateDownloader>d__12::System.Collections.IEnumerator.Reset()
+extern void U3CCreateDownloaderU3Ed__12_System_Collections_IEnumerator_Reset_m13FD4C68857DB3B8BF05E70E205AB1983689B749 (void);
+// 0x00000049 System.Object LoadWithYooAsset/<CreateDownloader>d__12::System.Collections.IEnumerator.get_Current()
+extern void U3CCreateDownloaderU3Ed__12_System_Collections_IEnumerator_get_Current_m46BFA5360E76EBE76CB851819BB30D27D8F43442 (void);
+// 0x0000004A System.Void LoadWithYooAsset/<StartLoadDll>d__22::.ctor(System.Int32)
+extern void U3CStartLoadDllU3Ed__22__ctor_m673C5CBEDFD9791B35034FA9BDC4D213F45793DF (void);
+// 0x0000004B System.Void LoadWithYooAsset/<StartLoadDll>d__22::System.IDisposable.Dispose()
+extern void U3CStartLoadDllU3Ed__22_System_IDisposable_Dispose_mA3D0F6F662C9C6AEC144B9672D6181EA289D6B52 (void);
+// 0x0000004C System.Boolean LoadWithYooAsset/<StartLoadDll>d__22::MoveNext()
+extern void U3CStartLoadDllU3Ed__22_MoveNext_m9918E92554770B820B4D45DB16C5AD3A6F8FEC71 (void);
+// 0x0000004D System.Object LoadWithYooAsset/<StartLoadDll>d__22::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartLoadDllU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m37CBE90740D8323508D9F28FBA9D9349FD5067FE (void);
+// 0x0000004E System.Void LoadWithYooAsset/<StartLoadDll>d__22::System.Collections.IEnumerator.Reset()
+extern void U3CStartLoadDllU3Ed__22_System_Collections_IEnumerator_Reset_m6523F5DD69E3E7AF380E4603BC6DB7A3D905D84D (void);
+// 0x0000004F System.Object LoadWithYooAsset/<StartLoadDll>d__22::System.Collections.IEnumerator.get_Current()
+extern void U3CStartLoadDllU3Ed__22_System_Collections_IEnumerator_get_Current_m5761F19BEE9F297C18A852241A46935834B96602 (void);
+// 0x00000050 System.Void LoadWithYooAsset/<LoadAsset>d__23::.ctor(System.Int32)
+extern void U3CLoadAssetU3Ed__23__ctor_m38BF39EF3998FE1D1C0120C73083746468969E9B (void);
+// 0x00000051 System.Void LoadWithYooAsset/<LoadAsset>d__23::System.IDisposable.Dispose()
+extern void U3CLoadAssetU3Ed__23_System_IDisposable_Dispose_m8EAAAB9D22E5A77B0F82E502F16D5F96C14D4FBA (void);
+// 0x00000052 System.Boolean LoadWithYooAsset/<LoadAsset>d__23::MoveNext()
+extern void U3CLoadAssetU3Ed__23_MoveNext_mC988A69BFBB03A355838C6D530D049FC6CE7F123 (void);
+// 0x00000053 System.Void LoadWithYooAsset/<LoadAsset>d__23::<>m__Finally1()
+extern void U3CLoadAssetU3Ed__23_U3CU3Em__Finally1_m30F641F52DF5F1258CBC3060C085DCCA0DAF8E24 (void);
+// 0x00000054 System.Object LoadWithYooAsset/<LoadAsset>d__23::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadAssetU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD020D145C86AF44C412416CFB51A85AA0F832F4F (void);
+// 0x00000055 System.Void LoadWithYooAsset/<LoadAsset>d__23::System.Collections.IEnumerator.Reset()
+extern void U3CLoadAssetU3Ed__23_System_Collections_IEnumerator_Reset_mC3E1A2BCB5EF0DB159784A01FECCFDAB2D36D8EB (void);
+// 0x00000056 System.Object LoadWithYooAsset/<LoadAsset>d__23::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadAssetU3Ed__23_System_Collections_IEnumerator_get_Current_mF2EBFAE7D1694763D828B06D31D9939DC7349940 (void);
+// 0x00000057 System.Void LoadWithYooAsset/<Run_InstantiateComponentByAsset>d__25::.ctor(System.Int32)
+extern void U3CRun_InstantiateComponentByAssetU3Ed__25__ctor_mE19122813882C60333D0EA3F7988839FCDB657B6 (void);
+// 0x00000058 System.Void LoadWithYooAsset/<Run_InstantiateComponentByAsset>d__25::System.IDisposable.Dispose()
+extern void U3CRun_InstantiateComponentByAssetU3Ed__25_System_IDisposable_Dispose_m6813A41D1C42E059F493916B40C2AB49786B8201 (void);
+// 0x00000059 System.Boolean LoadWithYooAsset/<Run_InstantiateComponentByAsset>d__25::MoveNext()
+extern void U3CRun_InstantiateComponentByAssetU3Ed__25_MoveNext_mE59B159011FD34253F156E5E1EE9427DEA4C4746 (void);
+// 0x0000005A System.Object LoadWithYooAsset/<Run_InstantiateComponentByAsset>d__25::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CRun_InstantiateComponentByAssetU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3A0F489233F924579F7A4A8CDB62B30477795342 (void);
+// 0x0000005B System.Void LoadWithYooAsset/<Run_InstantiateComponentByAsset>d__25::System.Collections.IEnumerator.Reset()
+extern void U3CRun_InstantiateComponentByAssetU3Ed__25_System_Collections_IEnumerator_Reset_m6BC590054B892EAC9ED7C36503C0883AC546080E (void);
+// 0x0000005C System.Object LoadWithYooAsset/<Run_InstantiateComponentByAsset>d__25::System.Collections.IEnumerator.get_Current()
+extern void U3CRun_InstantiateComponentByAssetU3Ed__25_System_Collections_IEnumerator_get_Current_m4E0C249A4C81F16B656002D482C24447381899D7 (void);
+// 0x0000005D System.Boolean GameQueryServices::Query(System.String,System.String,System.String)
+extern void GameQueryServices_Query_m47A86CA85B7EEE7B9411310FA4DDD8801CF1FF70 (void);
+// 0x0000005E System.Void GameQueryServices::.ctor()
+extern void GameQueryServices__ctor_m075C10A435857E061FE78F8BD293A6CF55EC105C (void);
+// 0x0000005F System.Void StreamingAssetsHelper::Init()
+extern void StreamingAssetsHelper_Init_m5FE865BDAEBFFA2604FFFAA940A1A637BC3FDD23 (void);
+// 0x00000060 System.Boolean StreamingAssetsHelper::FileExists(System.String,System.String,System.String)
+extern void StreamingAssetsHelper_FileExists_mBA9E8B6279BD8E6CF851E90EF0A428580087ABFA (void);
+// 0x00000061 System.Void StreamingAssetsHelper::.ctor()
+extern void StreamingAssetsHelper__ctor_m48EF042D675EBAA22A67CA435AA84396E03D8282 (void);
+// 0x00000062 System.Void StreamingAssetsHelper::.cctor()
+extern void StreamingAssetsHelper__cctor_mBEFB5C410D84FF5E45D9C429A5C86803771BD080 (void);
+// 0x00000063 System.Void StreamingAssetsHelper/PackageQuery::.ctor()
+extern void PackageQuery__ctor_mAB3682527E4D799D37972854B7598099642C7CDF (void);
+// 0x00000064 System.Void StreamingAssetsDefine::.ctor()
+extern void StreamingAssetsDefine__ctor_m24F6603DC5D25F321EA1E8E0CE58118D7513F764 (void);
+// 0x00000065 System.Void BuildinFileManifest::.ctor()
+extern void BuildinFileManifest__ctor_mBF7538337B56D8286696B71A381EAA4F71D2C37F (void);
+// 0x00000066 System.Void BuildinFileManifest/Element::.ctor()
+extern void Element__ctor_m6FCB126480A5BC7DE5A3A1D74CFB9D0EE8533A6E (void);
+// 0x00000067 System.Void GameExamlpe.Main::Awake()
+extern void Main_Awake_m6F37E666E99C15F74CF52A0A1DF8EE1C26A8260B (void);
+// 0x00000068 System.Void GameExamlpe.Main::.ctor()
+extern void Main__ctor_m15A7E08FAD9020FE2C87C598A358A720BBEA7AEF (void);
+static Il2CppMethodPointer s_methodPointers[104] = 
+{
+	AOTGenericReferences_RefMethods_m17CF257D96D8BC2F232C4C1502905B792D17170C,
+	AOTGenericReferences__ctor_m41CBD692FC9B521512E552575AFE7A385DEC71A6,
+	AOTGenericReferences__cctor_mA46BDC06A6577D725A2E5284A2A34C974CE65F68,
+	LoadWithYooAsset_Start_m930F0A7FE9205C4A8B15392CE8CC6B24583D7BCE,
+	LoadWithYooAsset_Init_mCC3189F1A3B562A698FB1E5DFD3E1769BE885971,
+	LoadWithYooAsset_InitPackage_m10D00377CAD45F7F2E4D11DEA7A02D024E9B9AC7,
+	LoadWithYooAsset_UpdatePackage_m6C5B212C180F7E98C86FDBF4D9277ECDD7EA5BFC,
+	LoadWithYooAsset_GetStaticVersion_mE0BDFFE16097A143200968445B9FE5CD1EECBBED,
+	LoadWithYooAsset_UpdateManifest_m7C3B754905802F7216D74C7D434113A05179E08D,
+	LoadWithYooAsset_CreateDownloader_m6E79F90FCD56B3910D8551BFDAD2126714728F77,
+	LoadWithYooAsset_OnStartDownloadFileFunction_m86D371B403B65AD550083C87C75227CF6256BC31,
+	LoadWithYooAsset_OnDownloadOverFunction_m0413D975B315BA6F5FEF0BD0C01817CF1C186E39,
+	LoadWithYooAsset_OnDownloadProgressUpdateFunction_m793C0312D3E1FC7AE50B925C1CABC8034925BA74,
+	LoadWithYooAsset_OnDownloadErrorFunction_m150EC13207D81E23FD122CB6D1A626D01E402D21,
+	LoadWithYooAsset_get_AOTMetaAssemblyFiles_mB2C86E57E3AB8F4435B911798656C7FCAF8B1937,
+	LoadWithYooAsset_ReadBytesFromStreamingAssets_m12F71DCB4B4612920C9A05601CE0034FF1948367,
+	LoadWithYooAsset_StartLoadDll_mF74FB3D2009C1D4EEB9A5139077B64E45859A2E8,
+	LoadWithYooAsset_LoadAsset_mA804717DE73009C95B413623054AA825D6B0E047,
+	LoadWithYooAsset_LoadMetadataForAOTAssemblies_m59CACDE97206AAEAC3A27CE7B8843CDCD61F53FB,
+	LoadWithYooAsset_Run_InstantiateComponentByAsset_mD8EC724B0F6FCC158EDAFDA134FF5C2F0D3F5A47,
+	LoadWithYooAsset_GetHostServerURL_mED2888822BAC3F7FAAFC8C7FBBA0D7DEBA088DEC,
+	LoadWithYooAsset__ctor_m75924DAA940BB9AB52C44CFEF71F3A9B1D17157F,
+	LoadWithYooAsset__cctor_mEA9DBC9F233FA25E248955B4D72FA7BDF849CFB4,
+	RemoteServices__ctor_mC10FCCEF39D3CBF461E08C55426F91D4114A7A05,
+	RemoteServices_YooAsset_IRemoteServices_GetRemoteMainURL_m0B5F6CE85F28AF867B28A99F06F4FA14ED2A3048,
+	RemoteServices_YooAsset_IRemoteServices_GetRemoteFallbackURL_m9DABF828A8A010D1FB8CB0D56F6EC64AC6A967DA,
+	FileStreamDecryption_YooAsset_IDecryptionServices_LoadAssetBundle_mF026DBB883A9B791B215012C89EC92F413EB639E,
+	FileStreamDecryption_YooAsset_IDecryptionServices_LoadAssetBundleAsync_mB4DE2FB518CB0863F2F6BA333BFDF36DC71DB439,
+	FileStreamDecryption_GetManagedReadBufferSize_mF57B5E51775AFA439C67C27C191787399C9AB87E,
+	FileStreamDecryption__ctor_mDCEBC4B483874C42D12159E22AF17775EEB9A1BA,
+	FileOffsetDecryption_YooAsset_IDecryptionServices_LoadAssetBundle_m386664791BD38055E983E20A6C278CDC405FBB0E,
+	FileOffsetDecryption_YooAsset_IDecryptionServices_LoadAssetBundleAsync_mBE983D15437C606669578BB57C7F1F854AC6C188,
+	FileOffsetDecryption_GetFileOffset_m88D7C26C071CCDF77047A6A35DCE34C2007B0B9B,
+	FileOffsetDecryption__ctor_mD2A5F9AD75425E9999412144CA859A6A877A356C,
+	BundleStream__ctor_m7BA2993746DC8A579C2912929FEEA331A91B7CA6,
+	BundleStream__ctor_mD1B4C3E87DDC8220470CEED9AFFD1F7EF4112604,
+	BundleStream_Read_mA1AAE3462011B8A8463416BC171DBF70C791C23B,
+	U3CInitU3Ed__7__ctor_m4B0A62B0792B079631F69AF08B81C2D3B2468119,
+	U3CInitU3Ed__7_System_IDisposable_Dispose_m5AB9F473CC6BCAFA0A35762192D17AE38A925EE4,
+	U3CInitU3Ed__7_MoveNext_m9C2399120830359E84AAB4147235DEBF167FC4BA,
+	U3CInitU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD31A7DFD6FB1096ACD091FD5BE13298CDFD4DFCE,
+	U3CInitU3Ed__7_System_Collections_IEnumerator_Reset_mD06C2A483199600134FF614255DA295584CB9C14,
+	U3CInitU3Ed__7_System_Collections_IEnumerator_get_Current_m6A2E21A5BCE7F59373EDBE15800A1C1CDE1574CC,
+	U3CInitPackageU3Ed__8__ctor_mDDBCB19E5708D51DB2B956859A6C62CA154375CE,
+	U3CInitPackageU3Ed__8_System_IDisposable_Dispose_m54E3874AA9FB6EAEC31ACBD4780493B5BE07AA8F,
+	U3CInitPackageU3Ed__8_MoveNext_m6DFD1201069F7A14B493BDAECA98BF2811D9E90A,
+	U3CInitPackageU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m869ECFDE09004EDEF3E86AEB0243292D2CD4C436,
+	U3CInitPackageU3Ed__8_System_Collections_IEnumerator_Reset_m15BC7CB768860791F09EED895E6D55B5236553BD,
+	U3CInitPackageU3Ed__8_System_Collections_IEnumerator_get_Current_m924C411350B05A1639373220F9E5D115EA681701,
+	U3CUpdatePackageU3Ed__9__ctor_m6709EDF68AD12C87B811C30C28670A2D884A5E81,
+	U3CUpdatePackageU3Ed__9_System_IDisposable_Dispose_mB2DF75718FEBF1FB219520C56B3FBAD10218789A,
+	U3CUpdatePackageU3Ed__9_MoveNext_mCD7E98A9EDB5F2047E366F3B7DC68F63A045F7ED,
+	U3CUpdatePackageU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF4AD214EACFCE3029E827BD31619ED559590D490,
+	U3CUpdatePackageU3Ed__9_System_Collections_IEnumerator_Reset_mBA783F1EB2A661FAFA32C025E27DAD09B4212103,
+	U3CUpdatePackageU3Ed__9_System_Collections_IEnumerator_get_Current_m6518C75660D132E1C9A5B80F1D945EEAB02DE499,
+	U3CGetStaticVersionU3Ed__10__ctor_mAF59408D6E1B9AFEF9EB6396E0E9F539A03E4CB6,
+	U3CGetStaticVersionU3Ed__10_System_IDisposable_Dispose_m699C4D7BAD0522AAE141354041F56FFED51662A1,
+	U3CGetStaticVersionU3Ed__10_MoveNext_m5B47A56D8D59242E6D3EF55D58C3B8BCB0C70209,
+	U3CGetStaticVersionU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF0F079D49B28302A0B0B0887CB5293803A128F0B,
+	U3CGetStaticVersionU3Ed__10_System_Collections_IEnumerator_Reset_m32919E8C08AE4158D2BAC47FF8AC26C1C5772262,
+	U3CGetStaticVersionU3Ed__10_System_Collections_IEnumerator_get_Current_mD495ED60AE66AD2B886A4AD83E844D71B10AB498,
+	U3CUpdateManifestU3Ed__11__ctor_m63976236E35ACD3A67181C5CA0051DC7431BA995,
+	U3CUpdateManifestU3Ed__11_System_IDisposable_Dispose_m2F05D3CE2F950B0287FEBF992343A4B2D6C1C218,
+	U3CUpdateManifestU3Ed__11_MoveNext_m4A76B100FD557C95539DEE2B2CFDE21B9615301B,
+	U3CUpdateManifestU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE9763CB79FB59046C0874E629716734873207C7D,
+	U3CUpdateManifestU3Ed__11_System_Collections_IEnumerator_Reset_m8DA634635181779C6F9A97407F1A466A97C84A5C,
+	U3CUpdateManifestU3Ed__11_System_Collections_IEnumerator_get_Current_mBEA93A377BAE1F1B964D025D904CAB1A2FB2FFD4,
+	U3CCreateDownloaderU3Ed__12__ctor_mA6CE2A13D4B578FCE522CA5C1CEEF7DB5B718E77,
+	U3CCreateDownloaderU3Ed__12_System_IDisposable_Dispose_m6FACF8CA936DFED8A63BF56BAD203C76660B9826,
+	U3CCreateDownloaderU3Ed__12_MoveNext_m8FD61E9E757F89235A6178FD1FABA9FB9FEFE1C1,
+	U3CCreateDownloaderU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF14E6AFED6D1590EC1D43D187747E6DB17A400C0,
+	U3CCreateDownloaderU3Ed__12_System_Collections_IEnumerator_Reset_m13FD4C68857DB3B8BF05E70E205AB1983689B749,
+	U3CCreateDownloaderU3Ed__12_System_Collections_IEnumerator_get_Current_m46BFA5360E76EBE76CB851819BB30D27D8F43442,
+	U3CStartLoadDllU3Ed__22__ctor_m673C5CBEDFD9791B35034FA9BDC4D213F45793DF,
+	U3CStartLoadDllU3Ed__22_System_IDisposable_Dispose_mA3D0F6F662C9C6AEC144B9672D6181EA289D6B52,
+	U3CStartLoadDllU3Ed__22_MoveNext_m9918E92554770B820B4D45DB16C5AD3A6F8FEC71,
+	U3CStartLoadDllU3Ed__22_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m37CBE90740D8323508D9F28FBA9D9349FD5067FE,
+	U3CStartLoadDllU3Ed__22_System_Collections_IEnumerator_Reset_m6523F5DD69E3E7AF380E4603BC6DB7A3D905D84D,
+	U3CStartLoadDllU3Ed__22_System_Collections_IEnumerator_get_Current_m5761F19BEE9F297C18A852241A46935834B96602,
+	U3CLoadAssetU3Ed__23__ctor_m38BF39EF3998FE1D1C0120C73083746468969E9B,
+	U3CLoadAssetU3Ed__23_System_IDisposable_Dispose_m8EAAAB9D22E5A77B0F82E502F16D5F96C14D4FBA,
+	U3CLoadAssetU3Ed__23_MoveNext_mC988A69BFBB03A355838C6D530D049FC6CE7F123,
+	U3CLoadAssetU3Ed__23_U3CU3Em__Finally1_m30F641F52DF5F1258CBC3060C085DCCA0DAF8E24,
+	U3CLoadAssetU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD020D145C86AF44C412416CFB51A85AA0F832F4F,
+	U3CLoadAssetU3Ed__23_System_Collections_IEnumerator_Reset_mC3E1A2BCB5EF0DB159784A01FECCFDAB2D36D8EB,
+	U3CLoadAssetU3Ed__23_System_Collections_IEnumerator_get_Current_mF2EBFAE7D1694763D828B06D31D9939DC7349940,
+	U3CRun_InstantiateComponentByAssetU3Ed__25__ctor_mE19122813882C60333D0EA3F7988839FCDB657B6,
+	U3CRun_InstantiateComponentByAssetU3Ed__25_System_IDisposable_Dispose_m6813A41D1C42E059F493916B40C2AB49786B8201,
+	U3CRun_InstantiateComponentByAssetU3Ed__25_MoveNext_mE59B159011FD34253F156E5E1EE9427DEA4C4746,
+	U3CRun_InstantiateComponentByAssetU3Ed__25_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3A0F489233F924579F7A4A8CDB62B30477795342,
+	U3CRun_InstantiateComponentByAssetU3Ed__25_System_Collections_IEnumerator_Reset_m6BC590054B892EAC9ED7C36503C0883AC546080E,
+	U3CRun_InstantiateComponentByAssetU3Ed__25_System_Collections_IEnumerator_get_Current_m4E0C249A4C81F16B656002D482C24447381899D7,
+	GameQueryServices_Query_m47A86CA85B7EEE7B9411310FA4DDD8801CF1FF70,
+	GameQueryServices__ctor_m075C10A435857E061FE78F8BD293A6CF55EC105C,
+	StreamingAssetsHelper_Init_m5FE865BDAEBFFA2604FFFAA940A1A637BC3FDD23,
+	StreamingAssetsHelper_FileExists_mBA9E8B6279BD8E6CF851E90EF0A428580087ABFA,
+	StreamingAssetsHelper__ctor_m48EF042D675EBAA22A67CA435AA84396E03D8282,
+	StreamingAssetsHelper__cctor_mBEFB5C410D84FF5E45D9C429A5C86803771BD080,
+	PackageQuery__ctor_mAB3682527E4D799D37972854B7598099642C7CDF,
+	StreamingAssetsDefine__ctor_m24F6603DC5D25F321EA1E8E0CE58118D7513F764,
+	BuildinFileManifest__ctor_mBF7538337B56D8286696B71A381EAA4F71D2C37F,
+	Element__ctor_m6FCB126480A5BC7DE5A3A1D74CFB9D0EE8533A6E,
+	Main_Awake_m6F37E666E99C15F74CF52A0A1DF8EE1C26A8260B,
+	Main__ctor_m15A7E08FAD9020FE2C87C598A358A720BBEA7AEF,
+};
+static const int32_t s_InvokerIndices[104] = 
+{
+	3652,
+	3652,
+	5592,
+	3652,
+	3555,
+	2609,
+	1274,
+	2609,
+	2609,
+	3555,
+	1639,
+	2890,
+	552,
+	1642,
+	5563,
+	5342,
+	2609,
+	2609,
+	3652,
+	3555,
+	3555,
+	3652,
+	5592,
+	1642,
+	2609,
+	2609,
+	1260,
+	1260,
+	5587,
+	3652,
+	1260,
+	1260,
+	5588,
+	3652,
+	592,
+	1638,
+	722,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3652,
+	3555,
+	3652,
+	3555,
+	2937,
+	3652,
+	3492,
+	3555,
+	3652,
+	3555,
+	683,
+	3652,
+	5592,
+	4408,
+	3652,
+	5592,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+	3652,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	104,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

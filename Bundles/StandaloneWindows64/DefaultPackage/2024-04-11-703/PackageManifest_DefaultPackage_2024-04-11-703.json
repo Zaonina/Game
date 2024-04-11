@@ -1,0 +1,136 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-04-11-703",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/UI/Text.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Player/player.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Scenes/Game.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Scenes/Main.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/HotGameObject/MainHotGameObject.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_ui.bundle",
+            "UnityCRC": 2903105946,
+            "FileHash": "6b7d20c0a64f7dc72ea7ea855ebd6e9b",
+            "FileCRC": "8c20e5b6",
+            "FileSize": 5305,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                7,
+                6,
+                5
+            ]
+        },
+        {
+            "BundleName": "assets_player.bundle",
+            "UnityCRC": 401305692,
+            "FileHash": "b13efc4b9a3a87f59fcc5f4d735c23a8",
+            "FileCRC": "796a3b39",
+            "FileSize": 49339,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_scenes.bundle",
+            "UnityCRC": 1722807766,
+            "FileHash": "72db3f1750a8780b3d27522a6c597e0b",
+            "FileCRC": "106c2a36",
+            "FileSize": 118589,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_hotgameobject.bundle",
+            "UnityCRC": 3334872973,
+            "FileHash": "ca8296cede3b68a3794211517f3e9c5b",
+            "FileCRC": "88905d86",
+            "FileSize": 2342,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_packages_com_unity_textmeshpro_editor resources_gizmos.bundle",
+            "UnityCRC": 4254849095,
+            "FileHash": "9450cbf16c35698188edc5825d94a089",
+            "FileCRC": "3420ad4d",
+            "FileSize": 5653,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 2482789186,
+            "FileHash": "748397c5c7813758786aa0a118137d11",
+            "FileCRC": "6165619b",
+            "FileSize": 19274,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "share_assets_textmesh pro_resources_fonts & materials.bundle",
+            "UnityCRC": 1388005851,
+            "FileHash": "7bbb73913c81f3fd1158da76f1d20fb0",
+            "FileCRC": "f5b5834b",
+            "FileSize": 373548,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                7,
+                5
+            ]
+        },
+        {
+            "BundleName": "share_assets_textmesh pro_fonts.bundle",
+            "UnityCRC": 821509603,
+            "FileHash": "76a126ec9e1abd996825b09a0aec6085",
+            "FileCRC": "748aefe1",
+            "FileSize": 227370,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

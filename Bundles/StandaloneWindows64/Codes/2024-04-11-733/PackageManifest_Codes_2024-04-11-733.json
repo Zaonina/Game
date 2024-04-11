@@ -1,0 +1,82 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "RawFileBuildPipeline",
+    "PackageName": "Codes",
+    "PackageVersion": "2024-04-11-733",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/HotUpdate.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/Codes/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_codes_hotupdate_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "a3b31940e9453c1bee33d4d8b735b0d8",
+            "FileCRC": "57e7c016",
+            "FileSize": 4096,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_codes_mscorlib_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "40789e916d6f653a5408538b05a6ebee",
+            "FileCRC": "dffb3ab7",
+            "FileSize": 1824768,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_codes_system_core_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "aa2ce0e06740e101435f0571c153292d",
+            "FileCRC": "8130250e",
+            "FileSize": 28672,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_codes_system_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "89e1fe492b60cb703b64e90099019b19",
+            "FileCRC": "2a0ee109",
+            "FileSize": 185856,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}
